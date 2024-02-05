@@ -27,7 +27,7 @@ const ProjectList = () => (
         "
         link="https://gec-ecommerce.vercel.app/"
         img={{
-          src: '/gecBazzar.ico',
+          src: '/gec.png',
           alt: 'Project Web Design',
         }}
         category={
