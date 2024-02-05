@@ -3,7 +3,7 @@ layout: '@/templates/BasePost.astro'
 title: GecBazzar
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.
 pubDate: 2020-02-06T00:00:00Z
-imgSrc: "public/assets/images/gec.png"
+imgSrc: "public/assets/images/image-post6.png"
 imgAlt: 'Image post'
 ---
 
@@ -139,6 +139,31 @@ Some text to show that the reference links can follow later.
 Images included in _\_posts_ folder are lazy loaded.
 
 Inline-style:
-![alt text](src\images\gec.png 'Logo Title Text 1')
+![alt text](/src/images/random.jpeg 'Logo Title Text 1')
 
+## Table
 
+| Tables        |      Are      | Cool |
+| ------------- | :-----------: | ---: |
+| col 3 is      | right-aligned | 1600 |
+| col 2 is      |   centered    |   12 |
+| zebra stripes |   are neat    |    1 |
+
+| Markdown | Less      | Pretty     |
+| -------- | --------- | ---------- |
+| _Still_  | `renders` | **nicely** |
+| 1        | 2         | 3          |
+
+## Syntax highlight
+
+```javascript
+var s = 'JavaScript syntax highlighting'; var s = 'JavaScript syntax highlighting';
+alert(s);
+```
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+
+```python
+s = "Python syntax highlighting"
+print s
+```
