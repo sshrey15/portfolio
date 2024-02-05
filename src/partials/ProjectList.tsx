@@ -27,7 +27,7 @@ const ProjectList = () => (
         "
         link="https://gec-ecommerce.vercel.app/"
         img={{
-          src: 'public/assets/images/gecBazzar.ico',
+          src: '/gecBazzar.ico',
           alt: 'Project Web Design',
         }}
         category={
@@ -45,7 +45,7 @@ const ProjectList = () => (
         description="Embark on an academic journey with the Engineering CGPA Calculator, a meticulously crafted application powered by Next.js and enriched with dynamic data visualization through Chart.js. This tool not only simplifies the calculation of Cumulative Grade Point 
         Average (CGPA) but also provides a visual representation of your academic progress over time."
         link="https://chartjs-dashboard.vercel.app/"
-        img={{ src: 'src/images/cgpa.png', alt: 'Project Fire' }}
+        img={{ src: '/cgpa.png', alt: 'Project Fire' }}
         category={
           <>
             <Tags color={ColorTags.VIOLET}>Next.js</Tags>
@@ -59,7 +59,7 @@ const ProjectList = () => (
         description="Step into a realm of artistic brilliance and spirituality with our Three.js Landing Page, a mesmerizing showcase of cutting-edge web development.
         This immersive experience is brought to life by a captivating 3D animation featuring a majestic model of Lord Shiva, seamlessly crafted with Three.js technology.."
         link="https://threejs-shrey.vercel.app/"
-        img={{ src: 'src/images/three.png', alt: 'Project Maps' }}
+        img={{ src: '/three.png', alt: 'Project Maps' }}
         category={
           <>
             <Tags color={ColorTags.FUCHSIA}>ThreeJs</Tags>
@@ -73,7 +73,7 @@ const ProjectList = () => (
         description="Explore the world of trending videos like never before with our YouTube Trending Videos Finder, an interactive application that seamlessly integrates OpenLeaflet maps.
          Immerse yourself in the global pulse of content creation by discovering trending videos based on geographical locations. "
         link="https://github.com/sshrey15/Youtube_Trends"
-        img={{ src: 'src/images/yttrend.png', alt: 'Project Fire' }}
+        img={{ src: '/yttrend.png', alt: 'Project Fire' }}
         category={
           <>
             <Tags color={ColorTags.VIOLET}>Next.js</Tags>
