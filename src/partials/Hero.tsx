@@ -28,14 +28,14 @@ const Hero = () => (
       avatar={
         <img
           className="w-70 h-80"
-          src="public\assets\images\shrey.jpeg"
+          src="/shrey.jpeg"
           alt="Avatar image"
           loading="lazy"
         />
       }
       socialButtons={
         <>
-          <a href="https://twitter.com/Shreysi29721576">
+          <a href="https://twitter.com/Shreysi29721576  ">
             <HeroSocial
               src="/assets/images/twitter-icon.png"
               alt="Twitter icon"
