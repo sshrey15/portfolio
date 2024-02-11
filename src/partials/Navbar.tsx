@@ -33,7 +33,7 @@ const Navbar = () => (
       </a>
 
       <NavMenu>
-        <a href="Resume_Shrey.pdf" download="Resume_Shrey.pdf">
+        <a href="Resume.pdf" download="Resume_Shrey.pdf">
           Download CV
         </a>{' '}
         <NavMenuItem href="https://github.com/sshrey15">GitHub</NavMenuItem>
