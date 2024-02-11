@@ -82,6 +82,19 @@ const ProjectList = () => (
           </>
         }
       />
+      <Project
+        name="Frover careers Page"
+        description="Designed and developed the careers page for Frover Company, a leading influencer marketing agency, using Next.js, PostgreSQL, and Prisma. Implemented dynamic job listings, advanced search and filtering, and streamlined application management to enhance user experience and streamline the hiring process"
+        link="https://frovercareer.vercel.app/"
+        img={{ src: '/frovercareers.png', alt: 'Project Fire' }}
+        category={
+          <>
+            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
+            <Tags color={ColorTags.EMERALD}>PostgreSQL</Tags>
+            <Tags color={ColorTags.YELLOW}>Prisma</Tags>
+          </>
+        }
+      />
     </div>
   </Section>
 );
